@@ -163,4 +163,63 @@ cursor: pointer;
 
 }
 
+/* style for About us i dont think i will keep this section */ 
+
+    .about-us {
+        width: 79%;
+        margin: auto; 
+        text-align: center; 
+        padding-top: 99px; 
+
+    }
+
+    h1  {
+        font-size: 35px; 
+        font-weight: 500; 
+    }
+
+    p { 
+        color: #777; 
+        font-size: 13px; 
+        font-weight: 280;
+        line-height: 21px;
+        padding: 8px; 
+
+    }
+
+    .row {
+        margin-top: 5%; 
+        display: flex; 
+        justify-content: space-between;
+
+    }
+
+    .about-col {
+         flex-basis: 31%; 
+         background: #F8E787;
+         border-radius: 10%;
+         margin-bottom: 5%;
+         padding: 20px 12px; 
+         box-sizing: border-box;
+         transition: 0.5s;
+
+
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 600; 
+            margin: 10px 0;
+
+        }
+
+        .about-col:hover {
+            box-shadow: 0 0 19px rgba(0,0,0,0.2) 
+
+        } 
+
+        @media(max-width: 700px) {
+            
+        }
+    
 
