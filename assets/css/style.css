@@ -443,5 +443,49 @@ cursor: pointer;
          .sub-header h1 { 
             margin-top: 70px;
          }
+
+         .about-page-us {
+            width: 80%;
+            margin: auto; 
+            padding-top: 80px;
+            padding-bottom: 50px;
+
+         }
         
+         .about-page-us-col {
+            flex-basis: 48%;
+            padding: 30px 2px; 
+
+            }
+
+            .about-page-us-col img {
+                width: 100%;
+
+            }
+
+            .about-page-us-col h1 {
+                padding-top: 0;
+
+            }
+
+            .about-page-us-col p {
+                padding: 15px 0 25px;
+                   
+
+            }
+
+            .red-btn {
+                border: 1px solid #F8E787;
+                background: transparent;
+                color: #F8E787; 
+
+
+            }
+
+            .red-btn:hover{
+                color:#F4F4F4;
+            }
+
+
+
     
