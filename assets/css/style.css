@@ -2,6 +2,7 @@
 {
     padding: 0; 
     margin; 0; 
+    font-family: 'Lato', sans-serif; 
 
 }
 
@@ -14,6 +15,56 @@
     background-position: center; 
     background-size: cover;
     position: relative;  
+}
+
+/* nav-bar */
+
+nav {
+    display: flex; 
+    padding: 3% 7%; 
+    justify-content: space-between;
+    align-items: right;
+    position:absolute;
+    right: 0;
+    
+}
+
+.nav-links {
+    flex: 1; 
+    
+
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 3px 7px;
+  position: relative;
+   
+
+}
+
+.nav-links ul li a {
+    color: #F4F4F4; 
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+.nav-links ul li::after {
+    content: ''; 
+    width: 0%; 
+    height: 2px; 
+    background: #EECF21; 
+    display: block; 
+    margin: auto; 
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+
 }
 
 
