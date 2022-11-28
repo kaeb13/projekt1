@@ -11,30 +11,54 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/733b1a6b3b.js" crossorigin="anonymous"></script>
+
+
 
     
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
     <section class="header"> 
-    
-     <nav class="nav-links"> 
-        <div> 
+    <nav class="nav-links" id="navLinks"> 
+        <div>
+            <i class="fas fa-times" onclick="hideMenu()"></i>
        <ul> 
             <li> <a href="">HOME</a></li>
             <li> <a href="">ABOUT</a></li>
             <li> <a href="">EVENTS</a></li>
             <li> <a href="">CONTACT</a></li>
+            </ul>
         </div>
-        </ul>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
         
         <div class="text-box">
-            <h1>One of the founding fathers</h1> 
+            <h1>Alexander Hamilton Fan Club</h1> 
             <p>Due to that we consider Alexander Hamilton to be the coolest one of the founding fathers, we have started this club to discuss and share happenings connected Alexander Hamilton. Such ass tour dates of the famous musical or exhibitions and meet-ups for our Alexander Hamilton fan club. 
             </p>
-            <a href="">get more information</a>
+            <a href="" class="bam">Become a member</a>
 
         </div>
+    
      </section>
+
+     <!-- ABOUT -->
+     <section> </section>
+
+     <!-- javascript for toggle menu---------------------------------------------------------->
+     <script> 
+     var navLinks = document.getElementById("navLinks");
+     
+     function showMenu() {
+        navLinks.style.right = "0"; 
+     }
+
+     function hideMenu() {
+        navLinks.style.right = "-200px"; 
+     }
+    </script>
 </body>
+
+
 </html>

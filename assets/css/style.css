@@ -30,6 +30,7 @@ nav {
 
 .nav-links {
     flex: 1; 
+    text-align: right;
     
 
 }
@@ -66,6 +67,7 @@ nav {
 
 }
 
+/* text box on start page */
 .text-box {
     width: 90%;
     color: #F4F4F4;
@@ -79,11 +81,86 @@ nav {
 
 }
 
-text-box h1 {
-    font-size: 42
+.text-box h1 {
+    font-size: 52px; 
+
+}
+
+.text-box p {
+    margin: 09px 0 39px;
+    font-size: 13px; 
+    color:#F4F4F4;
+
+
+
+
+}
+
+.bam {
+    display: inline-block;
+    text-decoration: none;
+    color: #F4F4F4;
+    border: 0.5px solid #F4F4F4; 
+    padding: 13px 35px; 
+    font-size: 12px; 
+    background: transparent;
+    position: relative;
+    cursor: pointer; 
+
+
+}
+
+.bam:hover{
+    border: 0.5px solid #EECF21; 
+    background: #EECF21;
+     transition: 1s;
+
+}
+
+nav .fas {
+     display: none; 
+      
+}
+
+@media(max-width: 700px) {
+.text-box h1 {
+    font-size: 10px; 
+     
+}
+
+.nav-links ul li {
+    display: block; 
+
+}
+
+/* just for own notes- this section is bugged and for now I dont find the error */
+.nav-links {
+    position: absolute;
+    background: #EECF21;
+    height: 100vh; 
+    width: 200px; 
+    top: 0; 
+    right: -200px; 
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+
+}
+
+nav .fas {
+display: block; 
+color: #F4F4F4;
+margin: 9px; 
+font-size: 22px; 
+cursor: pointer; 
+
+}
+
+.nav-links ul {
+    padding: 25px; 
 }
 
 
-
+}
 
 
