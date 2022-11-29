@@ -46,7 +46,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: #F4F4F4; 
+    color: #EECF21; 
     text-decoration: none;
     font-size: 15px; 
 }
@@ -231,40 +231,13 @@ cursor: pointer;
 
         }
 
-        /* section 3 on website not sure if i'll keep this one 
-
-        .not-keeping-this {
-            width: 80%; 
-            margin: auto; 
-            text-align: center; 
-            padding-top: 50px;
-        }
-
-         .content-hamilton {
-            flex-basis: 31%; 
-            border-radius: 9px;
-            margin-bottom: 30px;
-            position: relative; 
-            overflow: hidden; 
-        }
-
-        /* bug with showing of the pictures
-        
-        .content-hamilton img {
-            width: 100%; 
-            display: block;  
-        }
-
-        */ 
-
-
-        /*ah-content*/
+    
 
         .content-hamilton-page {
             width: 80%; 
             margin: auto; 
             text-align: center; 
-            padding-top:
+            padding-top: 0;
         }
 
 
@@ -451,14 +424,14 @@ cursor: pointer;
          }
         
          .about-page-us-col {
-           /* flex-basis: 48%; */
-            padding: 30px 2px; 
+           padding: 30px 2px; 
 
             }
 
             .about-page-us-col img {
                 width: 100%;
                 border-radius: 2%;
+                
                 
 
             }
@@ -474,7 +447,7 @@ cursor: pointer;
                    
 
             }
-
+/* This section is bugged can't seem to move the button to the middle of the page*/
             .red-btn {
                 border: 1px solid #F8E787;
                 background: transparent;
@@ -552,7 +525,7 @@ cursor: pointer;
 
             .left {
                 height: 100%; 
-                background: url(/'assets/images/contactform.jpg') , no-repeat center; 
+                background: url(/'assets/images/contactform.jpg') no-repeat center; 
                 background-size: cover;
                 
             }
