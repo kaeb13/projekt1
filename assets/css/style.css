@@ -310,7 +310,7 @@ cursor: pointer;
 
         .hamilton-content-col img {
             width: 100%; 
-            border-radius: 10px;
+            border-radius: 5px;
         }
 
         .hamilton-content-col p {
@@ -326,6 +326,22 @@ cursor: pointer;
         .hamilton-content-col h3 a {
             text-decoration: none;
 
+
+        }
+
+        .hamilton-content-col h3 a::after {
+            content: ''; 
+            width: 0%; 
+            height: 2px; 
+            background: #EECF21; 
+            display: block; 
+            margin: auto; 
+            transition: 0.5s;
+
+        }
+
+        .hamilton-content-col h3 a:hover::after{
+            width: 100%;
         }
 
 
