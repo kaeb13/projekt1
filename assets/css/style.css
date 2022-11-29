@@ -73,7 +73,6 @@ nav {
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate (-50% -50%);
     text-align: center; 
     overflow: auto;
     position: fixed; left: 0; right: 0; margin: 0 auto; 
@@ -523,7 +522,7 @@ cursor: pointer;
 
             .left {
                 height: 100%; 
-                background-image: url(/'assets/images/contactform.jpg') no-repeat center; 
+                background: url("../images/contactform.jpg") no-repeat center; 
                 background-size: cover;
                 
             }
