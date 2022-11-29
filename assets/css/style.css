@@ -74,7 +74,7 @@ nav {
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-50% -50%);
+    transform: translate (-50% -50%);
     text-align: center; 
     overflow: auto;
     position: fixed; left: 0; right: 0; margin: 0 auto; 
@@ -339,7 +339,7 @@ cursor: pointer;
 
             .testimonial-col img {
                 margin-left: 0;
-                margin-right: 15 px;
+                margin-right: 15px;
             
             } 
 
@@ -451,7 +451,7 @@ cursor: pointer;
                 border: 1px solid #F8E787;
                 background: transparent;
                 color: #F8E787; 
-                padding: 20px 0 px;
+                padding: 20px 0px;
                 margin-bottom: 20px;
                 align-items: center;
                 text-align: center;
@@ -468,14 +468,14 @@ cursor: pointer;
             /*Log-in form*/
 
             form {
-                border: 0.5 solid #EECF21;
+                border: 0.5px solid #EECF21;
                 color:#EECF21;
                 font-weight: 100;
                 
             }
 
             .text-style-member-form {
-                font-size: 100;
+                font-size: 100px;
             }
 
 
@@ -524,7 +524,7 @@ cursor: pointer;
 
             .left {
                 height: 100%; 
-                background: url(/'assets/images/contactform.jpg') no-repeat center; 
+                background-image: url(/'assets/images/contactform.jpg') no-repeat center; 
                 background-size: cover;
                 
             }
@@ -581,7 +581,7 @@ cursor: pointer;
 
             }
 
-            @media screen and (maxwidth: 880px) {
+            @media screen and (max-width: 880px) {
                 .contact-box {
                     grid-template-columns: 1fr;
 
