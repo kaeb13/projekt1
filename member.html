@@ -10,7 +10,7 @@
 <!-- google fonts can be found under here--> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/733b1a6b3b.js" crossorigin="anonymous"></script>
 
 
@@ -19,49 +19,44 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <section class="sub-header"> 
+    <section> 
     <nav class="nav-links" id="navLinks"> 
         <div>
             <i class="fas fa-times" onclick="hideMenu()"></i>
        <ul> 
             <li> <a href="index.html">HOME</a></li>
             <li> <a href="about.html">ABOUT</a></li>
-            <li> <a href="">EVENTS</a></li>
+            <li> <a href="events.html">EVENTS</a></li>
             <li> <a href="contact.html">CONTACT</a></li>
             <li> <a href="member.html">MEMBER</a></li>
             </ul>
         </div>
         <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
-   <!--- sign up form-->
-   
-   <form action="action_page.php">
-    <div class="login-form">
-      <h1>Become a member</h1>
     
-  
-      <label for="email" class="text-style-member-form"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-  
-      <label for="psw" class="text-style-member-form"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-  
-      <label for="psw-repeat" class="text-style-member-form"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-  
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-  
-      <p>By creating an account you agree to our <a href="#"</p>
-  
-      <div class="clearfix">
-        <button type="button" class="bam">Cancel</button>
-        <button type="submit" class="bam">Sign Up</button>
-      </div>
-    </div>
-  </form>
+     <!-- contact-form -->
+    <div class="container"> 
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+            <h2>Become a member</h2>
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="email" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Your Phone">
+            <textarea class="field area" placeholder="What else would you like us to know?"></textarea>
+            <button class="bam"><a href="thank-you-for-joining.html">Submit</a></button>
 
+
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+    
+   
      
      
 <!-- footer-->
