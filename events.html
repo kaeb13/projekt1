@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Alexander Hamilton Fan Club</title>
+<!-- google fonts can be found under here--> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/733b1a6b3b.js" crossorigin="anonymous"></script>
+
+
+
+    
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <section> 
+    <nav class="nav-links" id="navLinks"> 
+        <div>
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+       <ul> 
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="about.html">ABOUT</a></li>
+            <li> <a href="events.html">EVENTS</a></li>
+            <li> <a href="contact.html">CONTACT</a></li>
+            <li> <a href="member.html">MEMBER</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+
+    
+    <section class="facilites"> 
+        <h1> Our Facilites</h1>
+        <p> let's fil this later  </p>
+        <div class="row"></div>
+        <div class="facilites-col"> 
+            <h3>The writing</h3>
+            <img src="/assets/images/write.webp" alt="writing-letter"> 
+        </div>
+
+        <div class="row"></div>
+        <div class="facilites-col"> 
+            <h3> The History</h3>
+            <img src="/assets/images/historical figures.jpeg" alt="historial-figures "> 
+        </div>
+
+        <div class="row"></div>
+        <h3>The music</h3>
+        <div class="facilites-col"> 
+            <img src="/assets/images/notes.webp" alt="notes"> 
+        </div>
+
+
+
+     </section>
+     
+     
+<!-- footer-->
+<section class="footer"> 
+    <h4>About Us</h4>
+    <p>unknown content for the moment</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+<!-- javascript for toggle menu---------------------------------------------------------->
+<script> 
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+navLinks.style.right = "0"; 
+}
+
+function hideMenu() {
+navLinks.style.right = "-200px"; 
+}
+</script>
+</body>
+
+
+</html>
