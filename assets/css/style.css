@@ -598,39 +598,25 @@ cursor: pointer;
 
             /*thank you for contact page*/ 
 
-
-
-
             .thank-you-contact {
-                font-weight: 600;
-                color:#F4F4F4;
-                margin-top: 200px;
-                
-
-            }
-
-            .thank-you-contact h3 {
-                font-weight: 600;
-                color:#EECF21;
+                margin: 0;
+                color: #EECF21;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%) 
             }
 
             .thank-you-contact p {
-                font-weight: 400;
-                color:#EECF21;
-                line-height: 14px;
+                color: #EECF21;
             }
-
-            .bam a {
-                text-decoration: none;
-            }
-
             
 
-            
+
+
 
          
-    
-                
         
         
 
