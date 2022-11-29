@@ -486,6 +486,32 @@ cursor: pointer;
                 color:#F4F4F4;
             }
 
+            /*Log-in form*/
+
+            form {
+                border: 0.5 solid #EECF21;
+                color:#EECF21;
+                font-weight: 100;
+                
+            }
+
+            .text-style-member-form {
+                font-size: 100;
+            }
 
 
+            /* contact-form*/ 
     
+            .contact-form {
+                border: 0.5 solid #EECF21; 
+                background-image: linear-gradient(rgba(46, 50, 77, 0.6)rgba(46, 50, 77, 0.6)), url('images/contact-us.webp');
+                color: #EECF21;
+                display: inline;
+                position: relative;
+                text-align: center;
+                box-shadow: rgba(0, 0, 0, 0.6);
+                
+                
+            }
+            
+        
