@@ -16,10 +16,10 @@
 
 
     
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section> 
+    <div>
     <nav class="nav-links" id="navLinks"> 
         <div>
             <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -32,7 +32,11 @@
             </ul>
         </div>
         <i class="fas fa-bars" onclick="showMenu()"></i>
+    
     </nav>
+
+    </div>
+
 
     <section class="content-hamilton-page"> 
         <h1>Hamilton Content</h1>
@@ -79,9 +83,11 @@
 
     </div>
 
+</section>
 
 
-<!-- javascript for toggle menu---------------------------------------------------------->
+
+<!-- javascript for toggle menu-->
 <script> 
 var navLinks = document.getElementById("navLinks");
 

@@ -16,10 +16,10 @@
 
 
     
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section> 
+    <div> 
     <nav class="nav-links" id="navLinks"> 
         <div>
             <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -33,7 +33,7 @@
         </div>
         <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
-    
+</div>
      <!-- contact-form -->
     <div class="container"> 
         <div class="contact-box">
@@ -44,7 +44,8 @@
             <input type="email" class="field" placeholder="Your Email">
             <input type="text" class="field" placeholder="Your Phone">
             <textarea class="field area" placeholder="What else would you like us to know?"></textarea>
-            <button class="bam"><a href="thank-you-for-joining.html">Submit</a></button>
+            <button onclick="location.href='/thank-you-for-joining.html'" type="button" class="bam">
+                Submit</button>
 
 
 
@@ -79,7 +80,7 @@
 
 
 
-<!-- javascript for toggle menu---------------------------------------------------------->
+<!-- javascript for toggle menu-->
 <script> 
 var navLinks = document.getElementById("navLinks");
 
