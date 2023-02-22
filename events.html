@@ -87,18 +87,22 @@
 
 
 
-<!-- javascript for toggle menu-->
-<script> 
-var navLinks = document.getElementById("navLinks");
-
-function showMenu() {
-navLinks.style.right = "0"; 
-}
-
-function hideMenu() {
-navLinks.style.right = "-200px"; 
-}
-</script>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    var menuButton = document.getElementById("menuButton");
+  
+    // Show the menu when the user clicks the button
+    menuButton.addEventListener("click", function() {
+      navLinks.classList.toggle("show");
+    });
+  
+    // Hide the menu when the user clicks outside of it
+    window.addEventListener("click", function(event) {
+      if (!event.target.matches(".menu-button") && navLinks.classList.contains("show")) {
+        navLinks.classList.remove("show");
+      }
+    });
+  </script>
 </body>
 
 

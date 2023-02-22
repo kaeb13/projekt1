@@ -20,52 +20,35 @@
 
 /* nav-bar */
 
-nav {
-    display: flex; 
-    padding: 3% 7%; 
+.navbar {
+    display: flex;
     justify-content: space-between;
-    right: 0; 
-    
-}
-
-.nav-links {
-    flex: 1; 
-    text-align: right;
-    
-
-}
-
-.nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 3px 7px;
-  position: relative;
-
-}
-
-.nav-links ul li a {
-    color: #EECF21; 
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
     text-decoration: none;
-    font-size: 15px; 
-}
-
-.nav-links ul li::after {
-    content: ''; 
-    width: 0%; 
-    height: 2px; 
-    background: #EECF21; 
-    display: block; 
-    margin: auto; 
-    transition: 0.5s;
-
-}
-
-.nav-links ul li:hover::after{
-    width: 100%;
-    
-
-}
-
+    font-size: 18px;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
 /* text box on start page */
 .text-box {
     width: 90%;
@@ -120,47 +103,146 @@ nav .fas {
       
 }
 
-@media(max-width: 700px) {
-.text-box h1 {
-    font-size: 10px; 
-     
-}
-
-.nav-links ul li {
-    display: block; 
-
-}
-
-/* just for own notes- this section is bugged and for now I dont find the error */
-.nav-links {
-    position: absolute;
-    background: #EECF21;
-    height: 100vh; 
-    width: 200px; 
-    top: 0; 
-    right: -200px; 
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-
-}
-
-nav .fas {
-display: block; 
-color: #F4F4F4;
-margin: 9px; 
-font-size: 22px; 
-cursor: pointer; 
-
-}
-
-.nav-links ul {
-    padding: 25px; 
-}
-
-
-}
-
+/* For screens smaller than 768px */
+/* Desktop layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 50px;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+  
+  .navbar-link {
+    margin-right: 20px;
+  }
+  
+  /* Tablet layout */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      height: 60px;
+      padding: 0 30px;
+      font-size: 1rem;
+    }
+    
+    .navbar-links {
+      display: none;
+    }
+    
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+    }
+    
+    .navbar-toggle .icon-bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all 0.2s;
+      background-color: #333;
+    }
+    
+    .navbar-toggle .icon-bar:first-child {
+      margin-top: 0;
+    }
+    
+    .navbar-toggle .icon-bar:last-child {
+      margin-bottom: 0;
+    }
+    
+    .navbar-collapse {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background-color: #fff;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+    }
+    
+    .navbar-collapse .navbar-link {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  /* Mobile layout */
+  @media screen and (max-width: 480px) {
+    .navbar {
+      height: auto;
+      padding: 0 10px;
+      font-size: 0.9rem;
+    }
+    
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    
+    .navbar-toggle {
+      position: relative;
+      top: 0;
+      right: 0;
+      display: block;
+      cursor: pointer;
+      margin: 5px 0;
+    }
+    
+    .navbar-collapse {
+      position: static;
+      display: none;
+      overflow: hidden;
+      max-height: 0;
+      transition: all 0.5s ease-in-out;
+    }
+    
+    .navbar-collapse .navbar-link {
+      display: block;
+      text-align: center;
+      margin: 10px 0;
+    }
+    
+    .navbar-collapse.collapsing {
+      display: block;
+      overflow: hidden;
+      max-height: none;
+      transition: all 0.5s ease-in-out;
+    }
+    
+    .navbar-toggle .icon-bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all 0.2s;
+      background-color: #333;
+    }
+    
+    .navbar-toggle .icon-bar:first-child {
+      margin-top: 0;
+      transform: rotate(45deg);
+    }
+    
+    .navbar-toggle .icon-bar:last-child {
+      margin-bottom: 0;
+      transform: rotate(-45deg);
+    }
+    
+    .navbar-toggle .icon-bar:nth-child(2) {
+      opacity: 
 /* style for About */ 
 
     .about-us {
