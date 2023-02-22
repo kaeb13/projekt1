@@ -20,19 +20,14 @@
 </head>
 <body>
     <div> 
-    <nav class="nav-links" id="navLinks"> 
-        <div>
-            <i class="fas fa-times" onclick="hideMenu()"></i>
-       <ul> 
-            <li> <a href="index.html">HOME</a></li>
-            <li> <a href="about.html">ABOUT</a></li>
-            <li> <a href="events.html">EVENTS</a></li>
-            <li> <a href="contact.html">CONTACT</a></li>
-            <li> <a href="member.html">MEMBER</a></li>
-            </ul>
-        </div>
-        <i class="fas fa-bars" onclick="showMenu()"></i>
-    </nav>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="member.html">Member</a></li>
+        </ul>
+      </nav>
 </div>
      <!-- contact-form -->
     <div class="container"> 
@@ -81,22 +76,7 @@
 
 
 
-<script>
-    var navLinks = document.getElementById("navLinks");
-    var menuButton = document.getElementById("menuButton");
-  
-    // Show the menu when the user clicks the button
-    menuButton.addEventListener("click", function() {
-      navLinks.classList.toggle("show");
-    });
-  
-    // Hide the menu when the user clicks outside of it
-    window.addEventListener("click", function(event) {
-      if (!event.target.matches(".menu-button") && navLinks.classList.contains("show")) {
-        navLinks.classList.remove("show");
-      }
-    });
-  </script>
+
 </body>
 
 
