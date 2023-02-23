@@ -35,7 +35,46 @@
 .nav-links li a:hover {
     text-decoration: underline;
 }
+/* Mobile first queries */
+@media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2%;
+    }
+    .nav-links {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    .nav-links li {
+      margin-right: 1vw;
+    }
+    .nav-links li a {
+      font-size: 1.4em;
+
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .nav-links {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    .nav-links li {
+      margin-right: 40px;
+    }
+    .nav-links li a {
+      font-size: 1.6em;
+    }
+  }
 /* HOME PAGE * 
+/* text box on start page */
+.text-box
+
 
 /* home page header */ 
 
