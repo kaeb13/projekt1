@@ -1,5 +1,6 @@
 * {
-    font-family: 'Lora', sans-serif;
+  font-family: 'Lato', sans-serif;
+  background-color: #101820FF;
     
 }
 
@@ -8,8 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
-    color: #FECF48;
+    color: #FEE715FF;
     padding: 10px; 
 
 
@@ -27,7 +27,7 @@
 }
 
 .nav-links li a {
-    color:#FECF48;
+    color: #FEE715FF;
     text-decoration: none;
     font-size: 18px;
 }
@@ -55,6 +55,7 @@
     }
   }
   
+
   @media (min-width: 1200px) {
     .navbar {
       flex-direction: row;
@@ -71,11 +72,49 @@
       font-size: 1.6em;
     }
   }
+
+  /* FOOTER */ 
+  
+  .footer {
+    width: 100%; 
+    text-align: center; 
+    padding: 30px 0;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    
+
+ }
+
+ .footer p {
+  color: #FEE715FF;
+  font-weight: 300;
+ }
+
+
+ .footer h4 {
+  margin-bottom: 25px; 
+  margin-top: 20px; 
+  font-weight: 600;
+  color: #FEE715FF;
+  font-weight: 300;
+
+}
+
+.icons .fab {
+  color: #FEE715FF;
+  margin: 0 13px;
+  cursor: pointer; 
+  padding: 18px 0;
+  opacity: 0.6;
+  font-weight: 300;
+
+}
+
 /* HOME PAGE * 
 /* text box on start page */
 .text-box {
   width: 90%; 
-  color:#FECF48;
+  color:#FEE715FF;
   text-align: center;
   opacity: 0.8;
   display:block;
@@ -84,32 +123,39 @@
 
 .text-box h1 {
   font-size: 52px;
+  font-weight: 500;
 }
 
 .text-box p {
   margin: 0 0 39px; 
   font-size: 13px;
-  color: #FECF48;
+  color:#FEE715FF; 
+  font-weight: 300;
 
 
 }
 
 /* button under text-box */
+
+
 .bam {
   display: inline-block;
   text-decoration: none;
-  color: #FECF48;
-  border: 0.5px solid #FECF48;
+  color: #FEE715FF;
+  border: 0.5px solid #FEE715FF;
   padding: 13px 35px;
   font-size: 12px;
   background: transparent;
-  position: relative;
+  margin: 0 auto;
+  width: 200px;
   cursor: pointer;
+  display:block !important;
+   text-align:center !important;
 }
 
 .bam:hover {
-  border: 0.5px solid #EECF21;
-  background: #EECF21;
+  border: 0.5px solid #FEE715FF;
+  background: #FEE715FF;
   transition: 1s;
   color:black;
 }
@@ -151,4 +197,82 @@ nav .fas {
     position: relative;
 
 }
+
+/* ABOUT PAGE */ 
+.about {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.about .text {
+  padding-left: 20px;
+  
+}
+
+
+
+.about img {
+  width: 450px;
+  height: 350px;
+  border-radius: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  color: #FEE715FF;
+  
+}
+
+.about h5 {
+  font-size: 1.5em;
+  text-align: center;
+  font-style: italic;
+  color: #FEE715FF;
+}
+
+.about p {
+  font-size: 0.9em;
+  margin-top: 1em;
+  text-indent: 25px;
+  line-height: 1.5em;
+  color: #FEE715FF;
+  font-weight: 400;
+
+}
+
+.info a.bam {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000000;
+  background-color: #f2f2f2;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+}
+
+#buttonmember {
+  display: inline-block;
+  text-decoration: none;
+  color: #FEE715FF;
+  border: 0.5px solid #FEE715FF;
+  padding: 13px 35px;
+  font-size: 12px;
+  background: transparent;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
 
