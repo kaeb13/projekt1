@@ -73,7 +73,71 @@
   }
 /* HOME PAGE * 
 /* text box on start page */
-.text-box
+.text-box {
+  width: 90%; 
+  color:#FECF48;
+  text-align: center;
+  opacity: 0.8;
+  display:block;
+  margin:0 auto;
+}
+
+.text-box h1 {
+  font-size: 52px;
+}
+
+.text-box p {
+  margin: 0 0 39px; 
+  font-size: 13px;
+  color: #FECF48;
+
+
+}
+
+/* button under text-box */
+.bam {
+  display: inline-block;
+  text-decoration: none;
+  color: #FECF48;
+  border: 0.5px solid #FECF48;
+  padding: 13px 35px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.bam:hover {
+  border: 0.5px solid #EECF21;
+  background: #EECF21;
+  transition: 1s;
+  color:black;
+}
+
+nav .fas {
+  display: none; 
+   
+}
+
+/* Mobile first queries */
+@media (min-width: 768px) {
+  .text-box {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-box {
+    width: 70%;
+  }
+}
+
+@media (min-width: 500px) {
+  .text-box {
+    width: 90%;
+  }
+}
+
 
 
 /* home page header */ 
@@ -87,3 +151,4 @@
     position: relative;
 
 }
+
