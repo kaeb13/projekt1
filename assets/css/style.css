@@ -100,10 +100,8 @@
     }
 
   
-  }
 
-  
-  
+  }
 
   /* FOOTER */ 
   
@@ -125,7 +123,7 @@
 
 
  .footer h4 {
-  margin-bottom: 20 1234px; 
+  margin-bottom: 20px; 
   margin-top: 20px; 
   font-weight: 600;
   color: #077b8a;
@@ -172,6 +170,10 @@
   font-weight: 300;
   background-color:transparent;
 
+}
+
+.text-box iframe {
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -277,6 +279,7 @@ nav .fas {
 }
 
 /* ABOUT PAGE */ 
+
 .about {
   margin: 0 auto;
   width: 80%;
@@ -290,7 +293,7 @@ nav .fas {
 
 
 .about img {
-  width: 450px;
+  width: 500px;
   height: 350px;
   border-radius: 0;
   display: block;
