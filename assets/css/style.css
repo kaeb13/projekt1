@@ -62,8 +62,8 @@
   }
   
   .alexander {
-    color: #323232;
-    font-weight: 200;
+    color: #077b8a;
+    font-weight: 100;
   }
 
   @media (min-width: 1200px) {
@@ -82,6 +82,28 @@
       font-size: 1.6em;
     }
   }
+
+  @media (min-width: 780px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .nav-links {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    .nav-links li {
+      margin-right: 20px;
+    }
+    .nav-links li a {
+      font-size: 1.0em;
+    }
+
+  
+  }
+
+  
+  
 
   /* FOOTER */ 
   
@@ -152,7 +174,29 @@
 
 }
 
-/* button under text-box */
+@media (max-width: 768px) {
+  .text-box {
+    width: 100%;
+  }
+
+  .text-box h1 {
+    font-size: 36px;
+  }
+
+  .text-box p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-box h1 {
+    font-size: 36px;
+  }
+  .text-box p {
+    font-size: 12px;
+  }
+}
+/* button */
 
 
 .bam {
@@ -199,6 +243,9 @@ nav .fas {
   .text-box {
     width: 90%;
   }
+  
+
+
 }
 
 
@@ -215,10 +262,19 @@ nav .fas {
   backdrop-filter: blur(20px);
   margin-bottom: 20px;
   border-radius: 1%;
-  
 }
 
+@media screen and (max-width: 767px) {
+  .header {
+    min-height: 30vh;
+  }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    min-height: 40vh;
+  }
+}
 
 /* ABOUT PAGE */ 
 .about {
@@ -356,7 +412,7 @@ nav .fas {
 }
 
 .about h2 {
-  font-size: 1.9em;
+  font-size: 2.5em;
 
 }
 
@@ -367,7 +423,7 @@ nav .fas {
 
 }
 
-/* CONTACT PAGE */ 
+/* MEMBER FORM PAGE*/ 
 body{
   width: 100%; 
   height: 100vh; 
@@ -438,7 +494,7 @@ body{
   height: 4px; 
   width: 50px; 
   border-radius: 2px;
-  background-color: #323232;
+  background-color: #077b8a;
 
 
 
@@ -472,8 +528,8 @@ field:focus {
   /*Log-in form*/
 
   form {
-    border: 0.5px solid #323232;
-    color: #323232;
+    border: 0.5px #077b8a;
+    color: #077b8a;
     font-weight: 100;
     
 }
@@ -483,7 +539,7 @@ field:focus {
 }
 
 
-/* contact-form*/ 
+/* member form */ 
 
 body{
     width: 100%; 
@@ -554,7 +610,7 @@ body{
     height: 4px; 
     width: 50px; 
     border-radius: 2px;
-    background-color: #323232;
+    background-color: #077b8a;
 
 
 
@@ -574,48 +630,97 @@ body{
 field:hover {
     background-color: rgba(0,0,0,0.1);
 } 
-/* this one is bugged*/
-field:focus {
-    background-color: #F4F4F4;
-    border: 2px solid rgba(30, 85, 250, 0.47);
-}
 
 .area {
     min-height: 150px;
 
 }
 
-@media screen and (max-width: 880px) {
-    .contact-box {
-        grid-template-columns: 1fr;
-
-
-    }
-
-    .left {
-        height: 200px; 
-    }
-
-    
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  .container {
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .contact-box {
+    grid-template-columns: 1fr; 
+  }
+  
+  .right {
+    padding: 25px;
+  }
+  
+  .field {
+    font-size: 1rem; 
+    margin-bottom: 16px;
+  }
+  
+  .area {
+    min-height: 100px;
+  }
+  
+  .contact-box,
+  .right {
+    justify-self: center;
+    align-self: center;
+  }
 }
 
-
-/*thank you for contact page*/ 
-
-.thank-you-contact {
-    margin: 0;
-    color: #323232;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+/* Styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 40px;
+    flex-direction: column;
+  }
+  
+  .contact-box {
+    grid-template-columns: 1fr; 
+  }
+  
+  .right {
+    padding: 25px;
+  }
+  
+  .field {
+    font-size: 1.1rem; 
+    margin-bottom: 18px;
+  }
+  
+  .area {
+    min-height: 120px;
+  }
+  
+  .contact-box,
+  .right {
+    justify-self: center;
+    align-self: center;
+  }
 }
 
-.thank-you-contact p {
-    color: #323232;
+/* Styles for screens larger than 1024px */
+@media (min-width: 1024px) {
+  .container {
+    padding: 60px 100px;
+  }
+  
+  .contact-box {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  .right {
+    padding: 40px;
+  }
+  
+  .field {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+  }
+  
+  .area {
+    min-height: 150px;
+  }
 }
-
 /* EVENTS PAGE */ 
 
 .content-hamilton-page {
@@ -664,6 +769,21 @@ field:focus {
   margin: 5px 0;
  
 }
+
+/* THANK YOU FOR JOINING PAGE */ 
+
+.thank-you-contact{
+  text-align: center;
+  color: #077b8a;
+  font-size: 64px;
+}
+
+.thank-you-contact p {
+  font-size: 45px;
+
+}
+
+
 
 
 
