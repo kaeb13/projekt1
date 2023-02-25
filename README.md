@@ -12,12 +12,13 @@ Our website is a place where fans of Hamilton can come together to explore his l
 Here you will find articles, videos, photos, and interactive tools that showcase Hamilton's achievements, shed light on his personality and character, and help you appreciate his impact on American history and culture. You can also participate in discussions, quizzes, and contests, and contribute your own content to our growing archive of Hamiltoniana.
 
 So come and explore our website, and discover why Alexander Hamilton remains one of the most compelling and enduring figures in American history. We look forward to hearing from you and sharing your enthusiasm for this remarkable man.
-  ### Features 
+  # Features 
 
   ## Navigation 
 
-  <img src="assets/images/readmefilenav.png" alt=picture-of-navigationbar width="200" height="auto">
-  <img src="assets/images/navbar small screen.png" alt="picture-small-nav" width="200" height="auto">
+<img width="445" alt="navbar" src="https://user-images.githubusercontent.com/117651816/221346301-73b8a12a-0eca-4b33-a8ea-4eadc5e9dc68.png">
+<img width="364" alt="navbarhover" src="https://user-images.githubusercontent.com/117651816/221346304-110a6d93-7430-4f7f-ac54-0f9e8182a4b5.png">
+
 
 The navbar is prominently located at the top of the page and includes clear and concise labels for each section. The font used in the navbar is in uppercase letters, giving it a bold and striking appearance yet elegant.
 
@@ -25,10 +26,10 @@ When you hover over a navbar item, the background inverts to pinegreen, and the 
 
   
   ## Header 
+<img width="1103" alt="headerreadme" src="https://user-images.githubusercontent.com/117651816/221346375-cf7a4905-1e2d-423b-953a-69c9406dc1f1.png">
 
-  <img src="assets/images/header.png" alt="printscreen of header" width="200" height="auto">
 
- The website features a unique header design that is both eye-catching and informative. The header is prominently displayed on the home page, featuring a stunning image of the ten-dollar bill with Alexander Hamilton's portrait. This design choice not only pays homage to Hamilton's legacy as the first Secretary of the Treasury but also fits perfectly with our white and green themed website.
+The website features a unique header design that is both eye-catching and informative. The header is prominently displayed on the home page, featuring a stunning image of the ten-dollar bill with Alexander Hamilton's portrait. This design choice not only pays homage to Hamilton's legacy as the first Secretary of the Treasury but also fits perfectly with our white and green themed website.
 
 However, I decided to exclude the header on certain pages, such as the about us, contact, and event pages, in order to focus more on the body content. The absence of the header creates a cleaner and more streamlined look, allowing visitors to focus on the information that matters most.
 
@@ -38,57 +39,76 @@ We hope that the unique design of our header and the overall visual appeal of ou
 
   ## About us 
 
-  <img src="assets/images/screen-shot-about.png" alt="printscreen of about side" width="200" height="auto">
+  <img width="1088" alt="aboutpagereadme" src="https://user-images.githubusercontent.com/117651816/221346395-32bc5a21-9268-45cf-9014-aa036bc25d8f.png">
 
-# This side tells us that the club is one of the biggest Alexander Hamilton in the entire world, it also tells the viewer that the club meets up and celebrate once a year. It also shows a picture of group of people that laughs together and button linked to the member page. 
+The "About Us" page provides visitors with an overview of the Alexander Hamilton Fan Club and what we offer to our members. As a community of passionate Hamilton fans, we strive to celebrate and promote the life and legacy of one of America's most fascinating founding fathers.
+
+The page includes a brief history of our club, which has been active for over five years and has grown to over 500 members. We welcome anyone who shares our love for Hamilton and his contributions to American history, from casual fans to history buffs and beyond.
+
+The page also describes the various events and activities we offer to our members. From in-person meetings and gatherings to online forums and social media groups, we provide opportunities for Hamilton fans to connect, share knowledge, and engage in lively discussions about all things Hamilton.
+
+At the bottom of the page, visitors will find a "Become a Member" button, which allows them to join our vibrant community and gain access to exclusive events and resources. Additionally, a picture of a group of people provides a visual representation of our club and the sense of community that we offer.
+
+We believe that our club is a unique and valuable resource for anyone interested in learning more about Alexander Hamilton and his contributions to American history. We hope that our "About Us" page inspires visitors to become part of our community and helps them feel more connected to the life and legacy of Alexander Hamilton.
+
+## Member Page member
+
+<img width="1091" alt="contactformreadme" src="https://user-images.githubusercontent.com/117651816/221346452-2a857867-3ff8-408d-b762-1b37bbdc8aae.png">
+
+The "Become a Member" page is where visitors can sign up to become part of our passionate community of Hamilton fans. The page has a light and airy design, with a blurred background that emphasizes the importance of the membership form at the center of the page.
+
+The membership form is easy to fill out and provides us with the information we need to add you to our community. Once you have submitted the form, you will be redirected to a thank you page where you can learn more about what to expect as a member of our club.
 
 
-## Contact and member forms 
-
-<img src="assets/images/contact-member-form.png" alt="printscreen of the member/contact form" width="200" height="auto">
-
-# The same code is used for both contact and member form. I wanted the both to seem simular for the viewer and have only adjusted the text content for it's proper use. Both of these also have buttons linked to different thank you-pages. 
+## Thank you page
 
 ## Events 
 
-<img src="assets/images/eventscreen.png" alt="printscreen eventpage" width="200" height="auto">
+<img width="1088" alt="eventreadmepageone" src="https://user-images.githubusercontent.com/117651816/221346545-45aa9cb3-066a-4bae-96f0-e8e3d97c6ef3.png">
 
-# No header is visable on the events-page due to that I want the viewers focus to be on the picture with links above. The links have a hover-function that display a yellow line when hovering over. 
+<img width="1092" alt="eventreadmepagetwo" src="https://user-images.githubusercontent.com/117651816/221346546-0d9f54e4-4517-4103-8eb7-882a59cf4c6b.png">
 
-<h3>Testing</h3>
+The events page is a place where visitors can discover upcoming dates related to Alexander Hamilton, such as museum exhibitions, musical performances, and book releases. We have intentionally designed this page without a header to ensure that the visitors' focus is on the picture and the links at the top of the page.
 
-# Tested site in different browers, both in Safari, Chrome and Firefox. The content on the site works well with smaller screens and is responsive. It also has functionals links and is easy to understand to the viewer of site. 
+These links are highlighted with the same hover function as the rest of the site, turning green with white text when hovering over them. This makes it easy for visitors to see which event they are interested in learning more about. Clicking on a link will take visitors to a page with more information about that specific event, including the date, time, location, and any additional details.
 
-<h3>Bugs</h3>
+Our events page is a great resource for anyone looking to explore the world of Alexander Hamilton beyond the fan club. Whether you're a fan of the hit musical, interested in his political career, or simply want to learn more about American history, there's something for everyone on this page.
 
-# When deployed none of site pictures was functioning on the site. Had to redo the file-paths.
+## Testing
+
+Our site has undergone extensive testing across various browsers, such as Safari, Chrome, and Firefox, to ensure optimal performance and accessibility. We've prioritized responsiveness, making the site functional and easy to navigate on smaller screens. Visitors can expect seamless link and feature integration, promoting a smooth and enjoyable browsing experience.
+
+## Bugs
+
+During deployment, it was discovered that none of the site pictures were functioning properly. This was due to incorrect file paths that needed to be fixed. After identifying and correcting the issue, the pictures were able to load and display correctly on the site. It is important to thoroughly test and troubleshoot all aspects of a website, including file paths, to ensure a smooth and functional user experience.
 
 
-<h3>Validator testing</h3>
+## Validator testing
 
-# Passed with no issues in both the validator-testor for CSS and for HTML. 
+The website underwent rigorous testing for both CSS and HTML validation and successfully passed without encountering any issues.
 
-<img src="assets/images/screenshoutlighthouse.png" alt="printscreen of lighthouse result" width="200" height="auto">
 
-# Lighthouse results shows that there should be improvement in code for accessibilty. 
+<img width="575" alt="lighthouse" src="https://user-images.githubusercontent.com/117651816/221346775-9a2cc911-840b-4297-83a3-a2ea4eb7eb71.png">
 
-<h3>Unfixed bugs</h3>
+The site received excellent accessibility scores according to Lighthouse, with all metrics showing green indicators.
 
-# no unfixed bugs. 
+## Unfixed bugs
 
-<h3>Deployement</h3>
+no unfixed bugs. 
 
-# Deployement was done via Github. It was done via settings and pages section. Problem with deployement and images files but this was solved. 
+## Deployement
 
-# live link: https://kaeb13.github.io/projekt1/
+Deployment was successfully completed through GitHub, utilizing the settings and pages section. Although there were some initial difficulties with image file paths, these were promptly resolved.
 
-<h3>Credit</h3>
+### live link: https://kaeb13.github.io/projekt1/
 
-# Thank you for the usage of the start-page code in this tutorial: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
+## Credit</h3>
 
-# Also to the tutorial of the forms for member and contact: https://www.youtube.com/watch?v=Db5jCkrVgAw&ab_channel=TrueCoder
+Thank you for the usage of the start-page code in this tutorial: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
 
-# other helpful links visited to finish this project:
+Also to the tutorial of the forms for member and contact: https://www.youtube.com/watch?v=Db5jCkrVgAw&ab_channel=TrueCoder
+
+other helpful links visited to finish this project:
 <p> “https://www.w3schools.com/css/css_navbar.asp “https://www.w3schools.com/css/css_navbar.asp
 https://blog.hubspot.com/website/remove-underline-from-links-css”
 “https://elementor.com/blog/web-fonts/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=CjwKCAiA7IGcBhA8EiwAFfUDscUstEd_7Elb8Up2S3el27o8SbKREPjOB5F_dufulbXfaWgevY5eDhoCxPIQAvD_BwE”
@@ -123,12 +143,12 @@ https://blog.hubspot.com/website/remove-underline-from-links-css”
 "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
 </p>
 
-# All of the pictures are taken from pexels.com
-# All of the fonts are taken from google fonts 
-# All of the icons are taken from fontawesome version 5. 
+All of the pictures are taken from pexels.com except the header from https://unsplash.com/.
+All of the fonts are taken from google fonts 
+All of the icons are taken from fontawesome version 5. 
 
-# Created by name: Ebba Kask
-# Contact: kaskebba@gmail.com 
+Created by: Ebba Kask
+Contact: kaskebba@gmail.com 
 
 
 
