@@ -62,6 +62,8 @@ The membership form is easy to fill out and provides us with the information we 
 
 ## Thank you page
 
+After submitting the form, users are redirected to a thank you page where they receive feedback that their message has been successfully sent. This page contains a brief message thanking the user for contacting us and assuring them that we will respond as soon as possible.
+
 ## Events 
 
 <img width="1088" alt="eventreadmepageone" src="https://user-images.githubusercontent.com/117651816/221346545-45aa9cb3-066a-4bae-96f0-e8e3d97c6ef3.png">
@@ -102,7 +104,7 @@ Deployment was successfully completed through GitHub, utilizing the settings and
 
 ### live link: https://kaeb13.github.io/projekt1/
 
-## Credit</h3>
+## Credit
 
 Thank you for the usage of the start-page code in this tutorial: https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
 
