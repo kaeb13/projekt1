@@ -778,14 +778,39 @@ field:hover {
 .thank-you-contact{
   text-align: center;
   color: #077b8a;
-  font-size: 64px;
+  font-size: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .thank-you-contact p {
-  font-size: 45px;
-
+  font-size: 40px;
+ 
 }
 
+/* Styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .thank-you-contact {
+    font-size: 48px;
+  }
+  
+  .thank-you-contact p {
+    font-size: 36px;
+  }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 1200px) {
+  .thank-you-contact {
+    font-size: 80px;
+  }
+  
+  .thank-you-contact p {
+    font-size: 60px;
+  }
+}
 
 
 
